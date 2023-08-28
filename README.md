@@ -1,58 +1,42 @@
-
-<div align="center">
-  <h3><b>Hello-react-rails README</b></h3>
-</div>
-
+# hello-react-front-end
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [hello-react-front-end](#hello-react-front-end)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 About the project ](#about-project)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-Hello world app. This app display hello world 
+# 📖 hello-react-front-end <a name="about-project"></a>
+
+A react app that has different greetings rendered in a react frontend app and connected to the backend rails API <a href="https://github.com/citec-47/hello-rails-back-end.git">here</a>
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
 <details>
-  <summary>Client</summary>
+<summary>Server</summary>
   <ul>
-    <li><a href="https://guides.rubyonrails.org/engines.html">Embbed Ruby (ERB)</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>Ruby</li>
+    <li>Rails</li>
+    <li>PostgreSQL</li>
   </ul>
 </details>
 
@@ -60,11 +44,14 @@ Hello world app. This app display hello world
 
 ### Key Features <a name="key-features"></a>
 
-- **Display a message**
-- **React as frontend**
-- **Rails as backend**
+- Test-Driven Development
+- Class implementation with methods
+- Data Preserved in .json files
+- Unit tests created with Rspec
+- Backend PGSQL tables
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -73,36 +60,47 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
- - Ruby and rails installed
-- PostgreSQL server installed also
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
-  https://github.com/citec-47/hello-rails-react.git
+cd my-folder
+git clone https://github.com/citec-47/hello-react-front-end.git
+
 ```
 
 ### Install
 
-Install this project with:
+To run the project, execute the folllowing in a terminal.
 
 ```sh
-  cd hello-rails-react
-  bundle install 
-  rails db:create
-  rails db:schema:load
-  npm install
+cd my-project
+gem install
 ```
+
 ### Usage
 
 To run the project, execute the following command:
+
+
+Example command:
 
 ```sh
   rails server
 ```
 
+
+### Run tests
+To run tests, run the following command:
+npm test
+Example command:
+```sh
+  npx stylelint "**/*.{css,scss}"
+  rubocop .
+  rspec .
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +113,7 @@ To run the project, execute the following command:
 
 - GitHub: [@citec-47](https://github.com/citec-47)
 - Twitter: [@Ndonyi4](https://twitter.com/Ndonyi4)
-- LinkedIn: [ndonyi-maurice-b5b49b22b](https://www.linkedin.com/in/ndonyi-maurice-b5b49b22b/)
-
+- LinkedIn: [@ndonyi-maurice](https://www.linkedin.com/in/ndonyi-maurice-b5b49b22b/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,9 +121,10 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- Save to file
+- Styling data adding pages
+- Joined tables
 
-- [ ] **A better graphical user interface**
-- [ ] **A chat functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +134,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/citec-47/hello-rails-react/issues).
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +142,7 @@ Feel free to check the [issues page](https://github.com/citec-47/hello-rails-rea
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, go ahead and give it a star. It is very much appreciated.
+If you like this project, leave a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,23 +150,17 @@ If you like this project, go ahead and give it a star. It is very much appreciat
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to thank the Microverse community
 
-- I would like to thank Microvers for providing this great opportunity and for the project guide as well 👏
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Can I reuse this projects' code?**
-
-  - Yes, it is okay.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/citec-47/hello-rails-react/blob/main/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
