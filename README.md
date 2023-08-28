@@ -55,7 +55,7 @@ A react app that has different greetings rendered in a react frontend app and co
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running,follow these steps.
 
 ### Prerequisites
 
